@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dark-section">
+        <h1>WELCOME TO OUR SPORTS WEBSITE</h1>
+        <p>This is a cool sports</p>
+        <button id="toggle-theme">Toggle Theme</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="hero">
+    <h1>WELCOME TO OUR TEAM WEBSITE</h1>
+    <p>Explore the world sports.</p>
+    <button id="toggleTheme">Toggle Dark Mode</button>
+  </div>
+  
+  <script>
+    const toggleThemeButton = document.getElementById("toggleTheme");
+    const body = document.body;
+
+    toggleThemeButton.addEventListener("click", () => {
+      body.classList.toggle("dark-theme");
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="cta-container">
+    <button id="cta-button">Click Me</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sports News</h1>
+    </header>
+    <section class="news-section">
+        <div class="news-item">
+            <h2>Game Highlights</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="news-item">
+            <h2>Player Spotlight</h2>
+            <p>Proin ac felis a odio hendrerit varius nec eget elit.</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .team-section {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .team-member {
+            background-color: #444;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .team-member img {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .team-member h3 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .team-member p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="team-section">
+        <div class="team-member">
+            <img src="team_member1.jpg" alt="Team Member 1">
+            <h3>John Doe</h3>
+            <p>Web Developer</p>
+        </div>
+
+        <div class="team-member">
+            <img src="team_member2.jpg" alt="Team Member 2">
+            <h3>Jane Smith</h3>
+            <p>Designer</p>
+        </div>
+
+        <div class="team-member">
+            <img src="team_member3.jpg" alt="Team Member 3">
+            <h3>Bob Johnson</h3>
+            <p>Marketing Specialist</p>
+        </div>
+    </div>
+
+    <script>
+        // You can add JavaScript functionality here if needed
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="event-section">
+        <h2>Upcoming Events</h2>
+        <ul id="event-list">
+            <li>
+                <h3>Event 1</h3>
+                <p>Date: October 15, 2023</p>
+                <p>Location: Venue 1</p>
+                <button class="event-button" onclick="registerEvent(1)">Register</button>
+            </li>
+            <li>
+                <h3>Event 2</h3>
+                <p>Date: November 5, 2023</p>
+                <p>Location: Venue 2</p>
+                <button class="event-button" onclick="registerEvent(2)">Register</button>
+            </li>
+        </ul>
+    </div>
+    
+    <script>
+        function registerEvent(eventId) {
+            alert(`You have registered for Event ${eventId}`);
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Theme Section</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+    }
+    .section {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .section h2 {
+      color: #ff9900;
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <h2>Team member Section</h2>
+    <p>This is a member section. You can add your content here.</p>
+  </div>
+  
+  <script>
+    // JavaScript code can be added here if needed
+  </script>
+</body>
+</html>
